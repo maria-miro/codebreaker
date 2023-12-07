@@ -8,12 +8,12 @@ use Livewire\Attributes\Computed;
 
 class CreateCode extends Component
 {
-    public $message = 'This is my message?';
+    public $message = '';
 
     
     #[Computed(persist: true)]
     
-    public function map()
+    public function legend()
     {
         return array_combine(range('a', 'z'), $this->symbols());
     }
