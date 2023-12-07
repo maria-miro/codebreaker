@@ -8,7 +8,7 @@ use Livewire\Attributes\Computed;
 
 class CreateCode extends Component
 {
-    public $message = '';
+    public $message = 'This is my message?';
 
     
     #[Computed(persist: true)]
