@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="h-full bg-blue-950" lang="en">
+<html class="h-full" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -12,7 +12,7 @@
 
     <title>Codebreaker</title>
 </head>
-<body class="h-full">
+<body class="h-full bg-blue-950 text-white">
     {{ $slot }}
 </body>
 </html>
