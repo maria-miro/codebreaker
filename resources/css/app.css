@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media print {
+  
+  @page {
+    size: landscape;
+    -webkit-print-color-adjust: exact;
+    margin: 0;
+
+  }
+
+  .legend {page-break-before: always;}
+
+}

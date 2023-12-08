@@ -12,7 +12,7 @@
 
     <title>Codebreaker</title>
 </head>
-<body class="h-full bg-blue-950 text-white">
+<body class="h-full bg-blue-950 print:bg-white text-white print:text-black">
     {{ $slot }}
 </body>
 </html>
